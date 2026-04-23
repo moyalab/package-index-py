@@ -37,7 +37,7 @@ packages:
 필드는 `name / url / author / description / tags / license / docs`.
 
 - 예시
-```json
+```yaml
 packages:
   - name: aioespnow
     docs: >-
