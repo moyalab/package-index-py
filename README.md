@@ -36,6 +36,16 @@ packages:
 필수: `name` + (`url` 또는 micropython-lib 인덱스 조회용 이름만). 사용 가능
 필드는 `name / url / author / description / tags / license / docs`.
 
+- 예시
+```json
+packages:
+  - name: aioespnow
+    docs: >-
+      https://github.com/micropython/micropython-lib/tree/master/micropython/aioespnow
+    index: https://micropython.org/pi/v2
+    author: MicroPython
+    description: Extends the micropython espnow module with methods to support asyncio.
+```
 ## 3. 패키지 측 요구사항 (`package.json`)
 
 목록의 `url`이 가리키는 각 GitHub repo에는 [원본 micropython-lib 규약](https://github.com/micropython/micropython-lib)
