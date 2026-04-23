@@ -1,0 +1,12 @@
+packages:
+  - name: My Sensor Lib
+    url: https://github.com/myorg/my-sensor-lib       # github:owner/repo 도 가능
+    author: Your Name
+    description: One-line summary shown in the dialog
+    tags: ["sensors", "i2c"]
+    license: MIT
+    docs: https://github.com/myorg/my-sensor-lib#readme   # 선택
+  - name: Another Package
+    url: github:myorg/another-pkg@v1.2.0   # @버전 고정 가능
+    description: ...
+    tags: ["util"]
