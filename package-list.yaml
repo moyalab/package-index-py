@@ -1,5 +1,5 @@
 packages:
-  - name: My Sensor Lib
+  - name: Bitblock
     url: https://github.com/moyalab/bitblock-board-env
     author: Moyalab
     description: MicroPython for Bitblock
